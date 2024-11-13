@@ -1,6 +1,6 @@
 {
  "meta": {
-  "creator": "cds-dk 8.3.0"
+  "creator": "cds-dk 7.5.1"
  },
  "$version": "2.0",
  "definitions": {
@@ -121,6 +121,7 @@
      "@sap.quickinfo": "Work Breakdown Structure Element (WBS Element) Edited"
     },
     "to_MatlStkInAcctMod": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_MATERIAL_STOCK_SRV.A_MatlStkInAcctMod",
      "cardinality": {
@@ -156,6 +157,7 @@
      "@sap.semantics": "unit-of-measure"
     },
     "to_MatlStkInAcctMod": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_MATERIAL_STOCK_SRV.A_MatlStkInAcctMod",
      "cardinality": {
@@ -291,6 +293,7 @@
      "@sap.unit": "MaterialBaseUnit"
     },
     "to_MaterialSerialNumber": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_MATERIAL_STOCK_SRV.A_MaterialSerialNumber",
      "cardinality": {
@@ -299,6 +302,7 @@
      "keys": []
     },
     "to_MaterialStock": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_MATERIAL_STOCK_SRV.A_MaterialStock",
      "keys": []

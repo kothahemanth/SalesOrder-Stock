@@ -1,6 +1,6 @@
 {
  "meta": {
-  "creator": "cds-dk 8.3.0"
+  "creator": "cds-dk 7.5.1"
  },
  "$version": "2.0",
  "definitions": {
@@ -594,11 +594,13 @@
      "@sap.quickinfo": "Date on which services are rendered"
     },
     "to_BillingPlan": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderBillingPlan",
      "keys": []
     },
     "to_Item": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItem",
      "cardinality": {
@@ -607,6 +609,7 @@
      "keys": []
     },
     "to_Partner": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderHeaderPartner",
      "cardinality": {
@@ -615,6 +618,7 @@
      "keys": []
     },
     "to_PaymentPlanItemDetails": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SlsOrdPaymentPlanItemDetails",
      "cardinality": {
@@ -623,6 +627,7 @@
      "keys": []
     },
     "to_PrecedingProcFlowDoc": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderPrecdgProcFlow",
      "cardinality": {
@@ -631,6 +636,7 @@
      "keys": []
     },
     "to_PricingElement": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderHeaderPrElement",
      "cardinality": {
@@ -639,6 +645,7 @@
      "keys": []
     },
     "to_RelatedObject": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderRelatedObject",
      "cardinality": {
@@ -647,6 +654,7 @@
      "keys": []
     },
     "to_SubsequentProcFlowDoc": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderSubsqntProcFlow",
      "cardinality": {
@@ -655,6 +663,7 @@
      "keys": []
     },
     "to_Text": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderText",
      "cardinality": {
@@ -759,6 +768,7 @@
      "@sap.updatable": "false"
     },
     "to_BillingPlanItem": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderBillingPlanItem",
      "cardinality": {
@@ -767,6 +777,7 @@
      "keys": []
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
@@ -962,11 +973,13 @@
      "@sap.updatable": "false"
     },
     "to_BillingPlan": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderBillingPlan",
      "keys": []
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
@@ -1056,6 +1069,7 @@
      "@sap.quickinfo": "VAT Registration Number"
     },
     "to_Address": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderPartnerAddress",
      "cardinality": {
@@ -1064,6 +1078,7 @@
      "keys": []
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
@@ -1413,6 +1428,7 @@
      "@sap.updatable": "false"
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
@@ -2130,11 +2146,13 @@
      "@sap.updatable": "false"
     },
     "to_BillingPlan": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItemBillingPlan",
      "keys": []
     },
     "to_Partner": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItemPartner",
      "cardinality": {
@@ -2143,6 +2161,7 @@
      "keys": []
     },
     "to_PrecedingProcFlowDocItem": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItmPrecdgProcFlow",
      "cardinality": {
@@ -2151,6 +2170,7 @@
      "keys": []
     },
     "to_PricingElement": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItemPrElement",
      "cardinality": {
@@ -2159,6 +2179,7 @@
      "keys": []
     },
     "to_RelatedObject": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItemRelatedObject",
      "cardinality": {
@@ -2167,11 +2188,13 @@
      "keys": []
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
     },
     "to_ScheduleLine": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderScheduleLine",
      "cardinality": {
@@ -2180,6 +2203,7 @@
      "keys": []
     },
     "to_SubsequentProcFlowDocItem": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItmSubsqntProcFlow",
      "cardinality": {
@@ -2188,6 +2212,7 @@
      "keys": []
     },
     "to_Text": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItemText",
      "cardinality": {
@@ -2308,6 +2333,7 @@
      "@sap.updatable": "false"
     },
     "to_BillingPlanItem": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SlsOrderItemBillingPlanItem",
      "cardinality": {
@@ -2316,11 +2342,13 @@
      "keys": []
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
     },
     "to_SalesOrderItem": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItem",
      "keys": []
@@ -2421,6 +2449,7 @@
      "@sap.quickinfo": "VAT Registration Number"
     },
     "to_Address": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItemPartnerAddress",
      "cardinality": {
@@ -2429,11 +2458,13 @@
      "keys": []
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
     },
     "to_SalesOrderItem": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItem",
      "keys": []
@@ -2671,16 +2702,19 @@
      "@sap.quickinfo": "Fax no.: Extension"
     },
     "to_Partner": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItemPartner",
      "keys": []
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
     },
     "to_SalesOrderItem": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItem",
      "keys": []
@@ -3057,11 +3091,13 @@
      "@sap.updatable": "false"
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
     },
     "to_SalesOrderItem": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItem",
      "keys": []
@@ -3134,11 +3170,13 @@
      "@sap.quickinfo": "Reference of the Related Object of an SD Document"
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
     },
     "to_SalesOrderItem": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItem",
      "keys": []
@@ -3196,11 +3234,13 @@
      "@sap.filterable": "false"
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
     },
     "to_SalesOrderItem": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItem",
      "keys": []
@@ -3322,11 +3362,13 @@
      "@sap.quickinfo": "Last Changed On"
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
     },
     "to_SalesOrderItem": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItem",
      "keys": []
@@ -3468,11 +3510,13 @@
      "@sap.quickinfo": "Last Changed On"
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
     },
     "to_SalesOrderItem": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItem",
      "keys": []
@@ -3701,11 +3745,13 @@
      "@sap.quickinfo": "Fax no.: Extension"
     },
     "to_Partner": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderHeaderPartner",
      "keys": []
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
@@ -3785,6 +3831,7 @@
      "@sap.quickinfo": "Last Changed On"
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
@@ -3846,6 +3893,7 @@
      "@sap.quickinfo": "Reference of the Related Object of an SD Document"
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
@@ -4039,6 +4087,7 @@
      "@sap.quickinfo": "Last Changed On"
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
@@ -4085,6 +4134,7 @@
      "@sap.filterable": "false"
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
@@ -4291,16 +4341,19 @@
      "@sap.updatable": "false"
     },
     "to_BillingPlan": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItemBillingPlan",
      "keys": []
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
     },
     "to_SalesOrderItem": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrderItem",
      "keys": []
@@ -4547,6 +4600,7 @@
      "@sap.updatable": "false"
     },
     "to_SalesOrder": {
+     "@cds.ambiguous": "missing on condition?",
      "type": "cds.Association",
      "target": "API_SALES_ORDER_SRV.A_SalesOrder",
      "keys": []
